@@ -9,12 +9,12 @@ app.get('/', (request, response) => {
 });
 
 app.get('/api/me', (request, response) => {
-	response.send('{"name": "Arthur Dent", "location": "Earth"}');
+	response.send('{"name": "The Tschaena", "location": "Schwiz"}');
 	logger.info('Responded to GET request on /api/me')
 });
 
 app.get('/api/work', (request, response) => {
-	response.send('[{"yearFrom": "2010", "yearTo": "2018", "place": "BBC Radio", "comment": "Was doing stuff"}, {"yearFrom": "2009", "yearTo": "2010", "place": "The coffee shop", "comment": "Making coffee"}]');
+	response.send('[{"yearFrom": "2006", "yearTo": "2010", "place": "Somewhere", "comment": "Was doing stuff, real stuff"}, {"yearFrom": "2010", "yearTo": "2018", "place": "Somewhere else", "comment": "Making great coffee"}]');
 	logger.info('Responded to GET request on /api/work')
 });
 
