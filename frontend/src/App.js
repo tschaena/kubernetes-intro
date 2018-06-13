@@ -6,7 +6,7 @@ import './index.css';
 
 const App = () => (
   <div className="container">
-      <h1 className="main-header my-5">Curriculum Vitae</h1>
+      <h1 className="main-header my-5">Curriculum Vitae (CV)</h1>
       <div className="content-bulk">
           <ContactInformationContainer />
       </div>
